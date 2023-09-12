@@ -1,9 +1,12 @@
-@Acceptance
-Feature: fghjk
+# @Acceptance
+# Feature: fghjk
 
+#   @test1
+#   Scenario: Hello World
+#     Given Say Hello World
 
+Feature: Greeting
 
-
-@test1
-Scenario: Hello World
-Given Say Hello World
+  Scenario: Say hello
+    When the greeter says hello
+    Then I should have heard "hello"
