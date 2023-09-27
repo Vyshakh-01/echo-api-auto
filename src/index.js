@@ -1,9 +1,11 @@
 class Greeter {
     sayHello() {
-      return 'hello'
+      return 'ww3'
     }
   }
   
   module.exports = {
     Greeter
   }
+
+  
