@@ -13,6 +13,7 @@ Then('I should have heard {string}', function (expectedResponse) {
 });
 
 When('Get API Test', async function () {
+  assert.fail();
   console.log('Starting API call..............')
   //getConfiguration()
   const response = await fetch("https://polyrooms.bluejeans.com/channels/live/swconfig.json");
