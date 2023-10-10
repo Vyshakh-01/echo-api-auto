@@ -2,13 +2,15 @@
   "name": "echo-api-auto",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "xindex.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test1": "echo \"Error: no test specified\" && exit 1",
+    "test":"npx cucumber-js"
   },
   "author": "Vyshakh",
   "license": "ISC",
   "dependencies": {
-    "@cucumber/cucumber": "^9.5.1"
+    "@cucumber/cucumber": "^9.5.1",
+    "echo-api-auto":"../"
   }
 }
